@@ -2,10 +2,10 @@
 
 all: install
 
-install:
+install: clean
 	pip install -e .
 
-uninstall:
+uninstall: clean
 	pip uninstall wikicrawler
 
 clean:

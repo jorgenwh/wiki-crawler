@@ -5,6 +5,6 @@ setup(
     version='1.0.0',
     author='Jørgen Henriksen',
     description='A simple wiki crawler',
-    packages=['wiki_crawler'],
+    packages=['wikicrawler'],
     zip_safe=False
 )
